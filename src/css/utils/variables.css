@@ -21,12 +21,16 @@
 --transitions: 28px;
 --légende2: 14px;
 --autre-projet: 17px;
+--t-i-t-r-e: 72px;
+--titlenoir: 48px;
+--titleblanc: 48px;
+--h2: 20px;
 
 /* Fonts Family */
-font-family : 'Bebas Neue', cursif ;
-font-family : 'Cinzel', empattements ;
-font-family : 'Laila', sans-serif ;
-font-family : 'Oleo Script', cursif ;
+--spoiler : 'Bebas Neue', cursif ;
+--titresite : 'Cinzel', empattements ;
+--text : 'Laila', sans-serif ;
+--element : 'Oleo Script', cursif ;
 
 /* Spaces */
 --space1 : 40px;

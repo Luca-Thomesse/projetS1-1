@@ -13,3 +13,6 @@
 /* layout */
 @import url("layout/header.css");
 @import url("layout/footer.css");
+
+/* style fonts */
+@import url("style-fonts.css");

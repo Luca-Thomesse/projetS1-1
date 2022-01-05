@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titresite {
+    font-size: var(--t-i-t-r-e);
+    font-family: var(--titresite);
+    padding-top: 278px;
+}
+
+.intro {
+    font-size: var(--texte-sombre-intro);
+    font-family: var(--text);
+}
