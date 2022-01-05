@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À propos</title>
+    <title>Contact</title>
 </head>
-
 <body>
-
+    
     <header class="header">
      
         <div class="header__start">
@@ -51,19 +50,30 @@
 
     </header>
 
-    <h2 class="title">À propos</h2>
+    <main>
+        <h1>Contact</h1>
 
-    <div class="intro">
-        <p>Bonjour, je m’appelle PierrePolJ
-            et je suis actuellement en
-            première année de DUT MMI à
-            Montbéliard.
-            Ce site internet à été
-            entièrement conçue par mes
-            soins dans le cadre du projet
-            de semestre 1, intitulé « Le livre
-            augmenté ».</p>
-    </div>
+        <form>
+            <div>
+              <label for="name">Nom</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="firstname">Prénom</label>
+              <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div>
+              <label for="mail">Adresse mail</label>
+              <input type="email" id="mail" name="mail" required>
+            </div>
+            <div>
+            <label for="message">Message</label>
+              <input type="text" id="message" name="message">
+            </div>
+          </form>
+        
+          <button type="submit">Envoyer</button>
+    </main>
 
     <footer>
 
