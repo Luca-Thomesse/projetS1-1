@@ -1,0 +1,15 @@
+/* fonts family */
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Cinzel & family= Laila:wght@300;400;500;600;700 & family= Oleo+ Script & display=swap');
+
+/* utils */
+@import url("utils/variables.css");
+
+/* components */
+@import url("components/menu.css");
+
+/* vendors */
+@import url("vendors/normalize.css");
+
+/* layout */
+@import url("layout/header.css");
+@import url("layout/footer.css");

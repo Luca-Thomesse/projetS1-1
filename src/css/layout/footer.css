@@ -1,0 +1,19 @@
+.footer {
+    background-color: var(--menufooterheader);
+    width: 375%;
+    min-height: 300px;
+}
+  
+.footer a {
+    color: var(#CD68AE);
+    text-decoration: none;
+}
+
+.reseaux {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer p {
+      color: var(#fff)
+}

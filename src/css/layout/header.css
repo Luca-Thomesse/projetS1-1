@@ -1,0 +1,57 @@
+.header {
+    background-color: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 100px;
+  }
+  
+  .header__start,
+  .header__end {
+    display: flex;
+  }
+  
+  .header__end {
+    align-items: left;
+  }
+
+  .header__logo-site {
+    width: 80px;
+  }
+
+  .header__logo-contact {
+      width: 50px;
+  }
+
+.header1 {
+    background-color: var(--menufooterheader);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 100px;
+  }
+  
+  .header__start,
+  .header__end {
+    display: flex;
+  }
+  
+  .header__end {
+    align-items: left;
+  }  
+
+  .header__logo-site {
+    width: 80px;
+  }
+
+  .header__logo-contact {
+      width: 50px;
+  }
